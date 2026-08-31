@@ -1,3 +1,7 @@
+/*9 primeiros números → multiplicam pelos pesos.
+Calcula o 1º dígito.
+Depois usa os 9 + 1º dígito → calcula o 2º dígito.
+Se os dois baterem com o CPF digitado → válido.*/
 const cpf = document.getElementById('cpf');
 const validar = document.getElementById('validar');
 const resultado = document.getElementById('resultado');
